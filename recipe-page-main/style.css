@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 40px;
+    background-color: #f3e5d8;
+    font-family: 'Outfit', sans-serif;
+}
+.flex-container-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.main-content {
+    max-width: 736px;     
+    width: 100%;          
+    margin: 0 auto;       
+    background-color: white;
+    padding: 30px;        
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+.main-content img{
+    width: 100%;
+    border-radius: 20px;
+    display: block;
+}
+.simple-omelette-recipe {
+    font-family: 'Young-serif';
+    font-weight: 400;
+    padding: 20px;
+}
+.paragraphs-style {
+    font-family: 'Outfit';
+}
